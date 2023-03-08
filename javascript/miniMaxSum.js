@@ -26,5 +26,4 @@ function miniMaxSum(arr) {
     console.log(resultMin, resultMax);
 }
 
-// Test
 miniMaxSum([1, 2, 3, 4, 5]) // 10 14

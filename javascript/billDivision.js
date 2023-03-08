@@ -1,7 +1,6 @@
 // You can see the challenge prompt at the following link below:
 // https://www.hackerrank.com/challenges/bon-appetit/problem?isFullScreen=true
 
-// My answer
 function bonAppetit(bill, k, b) {
     let totalBill = 0;
   for (let i = 0; i < bill.length; i++) {
@@ -18,5 +17,4 @@ function bonAppetit(bill, k, b) {
   }
 }
 
-// Test
 console.log(bonAppetit([3, 10, 2, 9], 10, 7)) // "Bon Appetit"

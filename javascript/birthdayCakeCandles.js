@@ -1,7 +1,6 @@
 // You can see the challenge prompt at the following link below:
 // https://www.hackerrank.com/challenges/birthday-cake-candles/problem?isFullScreen=true
 
-// My answer
 function birthdayCakeCandles(candles) {
     let bigNumber = Math.max(...candles);
     let quantityBigNumber = 0;
@@ -13,5 +12,4 @@ function birthdayCakeCandles(candles) {
     return quantityBigNumber;
 }
 
-// Test
 console.log(birthdayCakeCandles([3, 2, 1 , 3])) // 2

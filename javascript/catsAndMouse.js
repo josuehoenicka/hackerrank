@@ -1,7 +1,6 @@
 // You can see the challenge prompt at the following link below:
 // https://www.hackerrank.com/challenges/cats-and-a-mouse/problem?isFullScreen=true
 
-// My answer
 function catAndMouse(x, y, z) {
     let catA = Math.abs(x - z);
     let catB = Math.abs(y - z);
@@ -14,5 +13,4 @@ function catAndMouse(x, y, z) {
     }
 }
 
-// Test
 console.log(catAndMouse(1, 2, 3)); // "Cat B"
