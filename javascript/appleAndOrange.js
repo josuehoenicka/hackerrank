@@ -9,5 +9,7 @@ function countApplesAndOranges(s, t, a, b, apples, oranges) {
     appleCount = applePositions.filter((position) => position >= s && position <= t).length;
     orangeCount = orangePositions.filter((position) => position >= s && position <= t).length;
     console.log(appleCount + '\n' + orangeCount);
-  }
+}
+
+console.log(countApplesAndOranges(7, 11, 5, 15, [-2, 2, 1], [5, -6])); // 1 *break line* 1
   
